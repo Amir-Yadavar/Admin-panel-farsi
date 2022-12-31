@@ -1,0 +1,37 @@
+@media screen and (max-width: 575px) {
+    .container-sidebar{
+        position: fixed;
+        right: 0;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 576px) {
+  .container-sidebar{
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+  .container-sidebar{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-sidebar > section:nth-of-type(1) > span {
+    display: none;
+  }
+
+  .container-sidebar{
+    position: fixed;
+    right: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1400px) {
+}

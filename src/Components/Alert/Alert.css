@@ -1,0 +1,10 @@
+.messasge-alert{
+    padding:20px 15px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--white);
+    background-color: var(--blue);
+    border-radius: 5px;
+    cursor: default;
+    margin: 5px 10px;
+}

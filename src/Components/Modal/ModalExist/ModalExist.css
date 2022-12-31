@@ -1,0 +1,19 @@
+.container-modal-exist {
+    background-color: var(--white);
+    padding: 10px 20px;
+    width: 350px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 0.4s;
+  }
+  .container-modal-exist>h2{
+      font-size: 1.3rem;
+      padding: 20px;
+  }
+  
+  .container-modal-exist>button{
+    width: 100px;
+  }

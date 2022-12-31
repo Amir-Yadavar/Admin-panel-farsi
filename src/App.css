@@ -1,0 +1,23 @@
+.container-app {
+  display: flex;
+}
+
+.container-main {
+  width: 84%;
+  margin: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .container-main {
+    margin-right: 160px;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container-main {
+    margin-right: 280px;
+  }
+}

@@ -1,0 +1,29 @@
+.order-box {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.688);
+  padding: 10px;
+  margin:15px 10px;
+  border-radius: 5px;
+}
+
+.order-box > section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 5px;
+}
+
+.order-box > section:nth-child(even) {
+  background-color: var(--white-d);
+}
+
+.order-box > section > button {
+  width: 50px;
+}
+
+.btn-blue {
+  background-color: var(--blue);
+}

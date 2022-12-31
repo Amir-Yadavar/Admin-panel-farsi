@@ -1,0 +1,10 @@
+.container-products{
+    margin: 5px;
+    padding: 5px;
+}
+
+.title-new-product{
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 2rem;
+}

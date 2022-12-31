@@ -1,0 +1,73 @@
+.container-sidebar > section:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 10px;
+  color: var(--white);
+  border-bottom: 1px solid rgb(198, 130, 3);
+  font-size: 1.2rem;
+}
+
+.container-sidebar > section:nth-of-type(1) > span {
+  cursor: pointer;
+}
+
+.container-sidebar {
+  background-color: var(--main);
+  padding: 10px;
+  width: 250px;
+  height: 100vh;
+  transition: 0.6s;
+  opacity: 1;
+  visibility: visible;
+ 
+}
+
+.container-sidebar-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.container-sidebar > ul {
+  padding: 10px 0px;
+}
+.container-sidebar > ul > li {
+  padding: 20px 2px;
+  font-size: 1.4rem;
+  display: flex;
+}
+
+.container-sidebar > ul > li:hover .span-icon{
+    transform: rotate(45deg) scale(1.2);
+}
+
+.container-sidebar > ul > li>span{
+    padding: 0 5px;
+    color: var(--white-d);
+    transition: 1s;
+}
+
+.container-sidebar > ul > li > a {
+  text-decoration: none;
+  color: var(--white);
+  width: 100%;
+  display: block;
+}
+
+.side-icon-show {
+  color: var(--main);
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 2.5rem;
+  padding: 30px;
+  cursor: pointer;
+  /* opacity: 1;
+  visibility: visible; */
+  transition: 0.5s;
+}
+
+.side-icon-hidden {
+  opacity: 0;
+  visibility: hidden;
+}

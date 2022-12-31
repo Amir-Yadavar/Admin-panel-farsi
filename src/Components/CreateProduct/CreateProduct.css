@@ -1,0 +1,54 @@
+.new-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.new-product>div>span{
+    font-size: 1.4rem;
+    color: var(--blue);
+}
+
+.input-style {
+  background-color: var(--white-d);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  outline-color: var(--main);
+  width: 360px;
+}
+
+@media screen and (min-width: 992px) {
+  .input-style {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .input-style {
+    width: 360px;
+  }
+}
+
+.div-button{
+    display: flex;
+    justify-content: end;
+    padding: 4px;
+}
+
+.add-btn-product {
+  padding: 10px;
+  background-color: var(--main);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  margin: 20px 40px;
+  transition: .4s;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.add-btn-product:hover{
+    box-shadow: 0 0 5px gray;
+}

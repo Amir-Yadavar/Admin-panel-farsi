@@ -1,0 +1,9 @@
+.container-ticket>section:nth-of-type(1) > h3{
+    padding: 20px;
+    font-size: 1.5rem;
+    color: gray;
+}
+.container-ticket>section:nth-of-type(1) > h2{
+padding: 20px;
+  font-size: 1.7rem;
+}

@@ -1,0 +1,17 @@
+@import"./reset.css";
+
+@font-face {
+    font-family: casablanca;
+    src: url(./../public/fonts/Casablanca.Font.ttf);
+}
+
+:root{
+    --white:#ffffff;
+    --white-d:whitesmoke;
+    --main:rgb(254, 157, 66);
+    --blue:rgb(54 160 210 / 70%);
+}
+
+*,body,html{
+    font-family: casablanca;
+}

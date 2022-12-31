@@ -1,0 +1,112 @@
+@media screen and (max-width: 575px) {
+  .container-table-product > table:nth-of-type(1) {
+    display: none;
+  }
+
+  .container-table-product > table >thead> tr > th,
+  .container-table-product > table >tbody> tr > td {
+    width: 20vw;
+  }
+
+  .container-table-product > table >thead> tr > th:last-child,
+  .container-table-product > table >tbody> tr > td:last-child {
+    width: 15vw;
+  }
+
+  .small-size-table tr{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container-table-product > table:nth-of-type(1) {
+    display: none;
+  }
+
+  .container-table-product > table >thead> tr > th,
+  .container-table-product > table >tbody> tr > td {
+    width: 20vw;
+  }
+
+  .container-table-product > table >thead> tr > th:last-child,
+  .container-table-product > table >tbody> tr > td:last-child {
+    width: 15vw;
+  }
+
+  .small-size-table tr{
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px;
+  }
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .container-table-product > table > thead > tr > th:last-child,
+  .container-table-product > table > tbody > tr > td:last-child {
+    width: 35vw;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container-table-product > table > thead > tr > th,
+  .container-table-product > table > tbody > tr > td {
+    width: 12vw;
+  }
+
+  .small-size-table tr{
+    display: flex;
+    width: 65vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .small-size-table {
+    display: none;
+  }
+
+  .container-table-product > table:nth-of-type(1) {
+    display: block;
+  }
+
+  .container-table-product > table > thead > tr > th,
+  .container-table-product > table > tbody > tr > td {
+    width: 10vw;
+  }
+
+  .container-table-product > table > thead > tr > th:last-child,
+  .container-table-product > table > tbody > tr > td:last-child {
+    width: 20vw;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container-table-product > table > thead {
+    display: block;
+  }
+  .container-table-product > table > tbody {
+    display: block;
+  }
+  .container-table-product > table > thead>tr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container-table-product > table > tbody>tr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+  }
+}

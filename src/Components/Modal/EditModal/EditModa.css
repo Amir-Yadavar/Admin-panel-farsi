@@ -1,0 +1,37 @@
+.container-modal-edit {
+  background-color: var(--white);
+  padding: 10px 20px;
+  width: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.4s;
+}
+
+.container-modal-edit > div:last-child{
+    justify-content: end;
+}
+
+.container-modal-edit > div:last-child > button {
+  width:100px;
+}
+
+.container-modal-edit > div:last-child > button:nth-of-type(1){
+    background-color: var(--blue);
+}
+
+
+.container-modal-edit>h2{
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.container-modal-edit>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
